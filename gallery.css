@@ -14,7 +14,7 @@ body{
 
 .profile{
     position: absolute;
-    background: rgba(95, 87, 87, 0.7);
+    /* background: rgba(0, 0, 0, 0.7); */
     color: white;
     padding: 40px;
     font-family: 'Malgun Gothic', sans-serif;
@@ -24,9 +24,8 @@ body{
 }
 
 .profile-img{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    height: 30%;
 }
 
 .profile h1{
