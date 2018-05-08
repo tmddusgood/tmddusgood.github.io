@@ -12,7 +12,7 @@ body{
 }
 
 
-.profile{
+.box{
     position: absolute;
     background: rgba(95, 87, 87, 0.7);
     color: white;
@@ -23,20 +23,20 @@ body{
     text-align: center;
 }
 
-.profile-img{
+.box-img{
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
 
-.profile h1{
+.box h1{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
     color: darkorange;
 }
 
-.profile h5{
+.box h5{
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: 100;
@@ -84,13 +84,13 @@ ul{
     padding:0;
 }
 
-.profile li{
+.box li{
     display: inline-blick;
     margin: 6px;
     list-style:none;
 }
 
-.profile li a{
+.box li a{
     color: white;
     text-decoration: none;
     font-size: 60px;
