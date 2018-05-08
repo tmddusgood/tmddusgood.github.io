@@ -1,0 +1,49 @@
+div.container 
+{
+    width: 100%;
+    border: 1px solid white;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: brown;
+    clear: left;
+    text-align: left;
+    padding-left: 20em;
+    padding-right: 20em;
+text-align: center;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: brown;
+    clear: left;
+    text-align: center;
+
+}
+
+nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 5px solid brown;
+    padding: 2em;
+    overflow: hidden;
+    text-align: center;
+}
