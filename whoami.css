@@ -79,5 +79,22 @@ body{
     margin: auto;
 }
 
+ul{
+    margin:0;
+    padding:0;
+}
+
+.profile li{
+    display: inline-blick;
+    margin: 6px;
+    list-style:none;
+}
+
+.profile li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+}
+
 
 
