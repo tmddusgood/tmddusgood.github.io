@@ -1,33 +1,74 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Travel</title>
-        <link href="gallery.css" rel="stylesheet" type = "text/css">
-       </head>
-       <body>
-           <header>
-            <div class="row">
-                    <ul class="main-nav">
-                       <li class="active"><a href="index.html"> HOME</a></li>
-                       <li><a href="faq.html"> FAQ</a></li>
-                    </ul>
-                   </div>
-                </header>
-                   <div class="box">
-                        <img src="image/ok.jpg" alt="" class ="box-img" align= "center" >
-                        <h1>OSAKA CASTLE</h1>
-                        <br><h5>OSAKA / JAPAN</h5>
-                        <p><br></p>
-                    <br><br><br>
-                    <img src="image/red.jpg" alt="" class ="box-img" align= "center" >    
-                    <h1>RED SQUARE</h1>
-                        <br><h5>MOSCOW / RUSSIA</h5>
-                        <p><br></p>
-                    <br><br><br>
-                    <img src="image/neva.jpg" alt="" class ="box-img" align= "center" >    
-                    <h1>NEVA RIVER</h1>
-                        <br><h5>ST.PETERSBURG / RUSSIA</h5>
-                        <p><br></p>
-                    </div>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Travel</title>
+    <link href="gallery.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <ul class="main-nav">
+                <li class="active">
+                    <a href="index.html"> HOME</a>
+                </li>
+                <li>
+                    <a href="faq.html"> FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="box">
+        <a href="#" onclick="osaka()">
+            <img src="image/ok.jpg" alt="" class="box-img" align="center">
+        </a>
+        <script type="text/javascript">
+            function osaka() {
+                window.open("osakacastle.html");
+            }
+        </script>
+        <h1>OSAKA CASTLE</h1>
+        <br>
+        <h5>OSAKA / JAPAN</h5>
+        <p>
+            <br>
+        </p>
+        <br>
+        <br>
+        <br>
+        <a href="#" onclick="red()">
+            <img src="image/red.jpg" alt="" class="box-img" align="center">
+        </a>
+        <script type="text/javascript">
+            function red() {
+                window.open("redsquare.html");
+            }
+        </script>
+        <h1>RED SQUARE</h1>
+        <br>
+        <h5>MOSCOW / RUSSIA</h5>
+        <p>
+            <br>
+        </p>
+        <br>
+        <br>
+        <br>
+        <a href="#" onclick="neva()">
+            <img src="image/neva.jpg" alt="" class="box-img" align="center">
+        </a>
+        <script type="text/javascript">
+            function neva() {
+                window.open("nevariver.html");
+            }
+        </script>
+        <h1>NEVA RIVER</h1>
+        <br>
+        <h5>ST.PETERSBURG / RUSSIA</h5>
+        <p>
+            <br>
+        </p>
+    </div>
+</body>
+
 </html>

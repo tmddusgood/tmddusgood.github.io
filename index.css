@@ -76,7 +76,7 @@ h1{
 }
 
 .bx{
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0);
     padding: 10px 30px;
     color: white;
     text-decoration: none;
@@ -88,29 +88,29 @@ h1{
 }
 
 .bx1{
-    
-    background-color: darkorange;
-    font-family: "Malgun Gothic", sans-serif
+
+    font-family: "Malgun Gothic", sans-serif;
+    border: 3px solid darkred;
 
 }
 .bx2{
-    
-    font-family: "Malgun Gothic", sans-serif
+
+    font-family: "Malgun Gothic", sans-serif;
 }
 
 .bx1:hover
 {
-    background-color: darkorange;
-    border: 1px solid black;
-    color: black;
+    /* background-color: darkorange; */
+    border: 2px solid darkorange;
+    color: darkorange;
     transition: all 1s ease
 }
 
 .bx2:hover
 {
-    background-color: darkred;
-    border: 1px solid black;
-    color: black;
+    border: 2px solid darkorange;
+    color: darkorange;
+    color: darkorange;
     transition: all 1s ease
 }
 
