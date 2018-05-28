@@ -125,3 +125,10 @@ h1{
     letter-spacing: 2px;
     display: inline;
 }
+
+.visitcount {
+    color: darkorange;
+    padding: 6px;
+    font-size: 25px;
+    font-weight: bold;
+}

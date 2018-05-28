@@ -15,13 +15,43 @@
                     <a href="index.html"> HOME</a>
                 </li>
                 <li>
-                    <a href="counter.html"> FAQ</a>
+                    <a href="faq.html"> FAQ</a>
                 </li>
             </ul>
         </div>
         <div class="intro">
-            <h1><p>Traveler's Cabin</p>
-                <div id="clock" class="clockstyle"></div>
+            <h1><p>Traveler's Cabin</h1></p>
+            <div id="visit" class="visitcount">
+                <p>YOU'VE COME HERE: <script>
+                    expiration = new Date
+                    expiration.setMonth(expiration.getMonth()+6)
+                    jvct = eval(cookieVal("visitorcounter"))
+                    jvct++
+                    document.cookie = "visitorcounter="+jvct+";expires=" + expiration.toGMTString()
+                    
+                    function cookieVal(cookieName) {
+                    Cookie = document.cookie.split("; ")
+                    for (i=0; i<Cookie.length; i++){
+                    if (cookieName == Cookie[i].split("=")[0]){
+                    return Cookie[i].split("=")[1]
+                    }
+                    }
+                    return 0
+                    }
+                    
+                    function page_counter(){
+                    // for (i=0;i<(7-jvct.toString().length);i++)
+                    // document.write('<span class="counter">0</span>')
+                    for (y=0;y<(jvct.toString().length);y++)
+                    document.write('<span class="counter">'+jvct.toString().charAt(y)+'</span>')
+                    }
+                    </script>
+                                     
+                    <script>
+                    page_counter(jvct);
+                    </script></p>
+                     </div>  
+                <div id="clock" class="clockstyle">
                 <script type="text/javascript" language="javascript">
                 function renderTime(){
         
@@ -55,7 +85,7 @@
                     setTimeout('renderTime()',1000);
                 }
                 renderTime();
-                </script></h1>
+                </script></div>
             <div class="box">
                 <a href="whoami.html" class="bx bx1"> Who am I?</a>
                 <a href="gallery.html" class="bx bx2"> Gallery</a>
