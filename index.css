@@ -113,3 +113,15 @@ h1{
     color: black;
     transition: all 1s ease
 }
+
+.clockStyle {
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(255, 255, 255, 0) 2px inset;
+    padding: 6px;
+    color: darkred;
+    /* font-family: "Arial Black", Gadget, sans-serif; */
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline;
+}
